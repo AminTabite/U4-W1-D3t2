@@ -7,12 +7,15 @@ public class Es2 {
 
         Chiamata firstcall = new Chiamata(123456789, 12.34);
         Chiamata secondcall = new Chiamata(987654321, 5.32);
+        Chiamata thirdcall = new Chiamata(997654321, 9.12);
+
 
         System.out.printf(String.valueOf(vodafone));
 
 
         vodafone.lastcalls[0] = firstcall;
         vodafone.lastcalls[1] = secondcall;
+        vodafone.lastcalls[2] = thirdcall;
 
 
         System.out.printf(String.valueOf(vodafone));
