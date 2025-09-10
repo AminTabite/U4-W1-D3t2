@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 public class Chart {
     //attributi
+
+    private String[] artList;
     private int clientIdassociated;
     private double totalcost;
-    private String[] artList;
 
 
     //costruttori
@@ -26,6 +27,9 @@ public class Chart {
                 '}';
     }
 
+    public String[] getArtList() {
+        return artList;
+    }
 
     //metodi
 }
