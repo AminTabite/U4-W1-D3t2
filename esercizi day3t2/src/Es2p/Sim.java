@@ -3,10 +3,10 @@ package Es2p;
 import java.util.Arrays;
 
 public class Sim {
+    Chiamata[] lastcalls;
     // attributi sim
     private long phoneNumber;
     private double credit;
-    private Chiamata[] lastcalls;
 
     // metodi
 
