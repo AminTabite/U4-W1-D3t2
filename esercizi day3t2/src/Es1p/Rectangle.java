@@ -1,14 +1,14 @@
 package Es1p;
 
 public class Rectangle {
-    public double getArea;
+
     // attributi rettangolo
     private double height;
 
-    // costruttore rettangolo
+
     private double length;
 
-    // metodi
+    // costruttore rettangolo
 
     public Rectangle(double height, double length) {
         this.height = height;
@@ -16,6 +16,7 @@ public class Rectangle {
 
     }
 
+    // metodi
     public double getPerimeter() {
         return (height + length) * 2;
     }
@@ -29,5 +30,10 @@ public class Rectangle {
         ;
     }
 
+
+    public void print2rectangles(Rectangle re1, Rectangle re2) {
+        System.out.println("la somma delle aree dei 2 rettangoli e'" + " " + re2.getGetArea() + re1.getGetArea() + " " + "la somma dei perimetri e' " + " " + re1.getPerimeter() + re2.getPerimeter());
+
+    }
 
 }
